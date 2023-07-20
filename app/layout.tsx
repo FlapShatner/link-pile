@@ -9,6 +9,11 @@ const font = Rubik({ subsets: ['latin'] })
 export const metadata: Metadata = {
  title: '@jordan_robots',
  description: 'A pile of links',
+ viewport: {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 1,
+ },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
