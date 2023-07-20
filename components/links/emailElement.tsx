@@ -31,7 +31,7 @@ const EmailElement: FC<EmailElementProps> = () => {
     alt={emailData.text}
    />
    <div>
-    <p className='text-lg font-bold sm:text-xl'>{emailData.text}</p>
+    <p className='text-lg font-semibold sm:text-xl'>{emailData.text}</p>
     <p className='text-xs sm:text-md'>{isCopied ? 'Copied to clipboard!' : emailData.note}</p>
    </div>
   </div>

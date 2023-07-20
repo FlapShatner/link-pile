@@ -12,7 +12,7 @@ const Socials: FC<SocialsProps> = () => {
      <Link
       key={social.id}
       href={social.url}>
-      <div className='opacity-60 hover:opacity-100 transition-opacity delay-75'>{social.icon}</div>
+      <div className='sm:opacity-60 hover:opacity-100 transition-opacity delay-75'>{social.icon}</div>
      </Link>
     ))}
    </div>

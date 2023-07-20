@@ -71,7 +71,7 @@ export const options: ISourceOptions = {
     },
     particles: {
      color: {
-      value: ['#004f74', '#5f5800', '#245100', '#7d0000', '#810c00'],
+      value: ['#f26419', '#d1495b', '#00798c', '#30638e', '#003d5b'],
      },
     },
    },

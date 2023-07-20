@@ -12,7 +12,7 @@ const Avatar: FC<AvatarProps> = ({ size = 96 }) => {
    className='rounded-full overflow-hidden m-auto'>
    <Image
     alt='avatar'
-    src='/avatar.png'
+    src='/avatar.jpg'
     width={size}
     height={size}
    />
