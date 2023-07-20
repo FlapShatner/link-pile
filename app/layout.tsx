@@ -1,5 +1,6 @@
 import './globals.css'
 import type { Metadata } from 'next'
+import { Analytics } from '@vercel/analytics/react'
 import Background from '@/components/background'
 import { Inter, Rubik } from 'next/font/google'
 
@@ -16,6 +17,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
    <body className={font.className}>
     <Background />
     {children}
+    <Analytics />
    </body>
   </html>
  )
