@@ -81,14 +81,14 @@ export const options: ISourceOptions = {
   direction: 'top',
   position: {
    x: 50,
-   y: 150,
+   y: 175,
   },
   rate: {
    delay: 0.2,
    quantity: 2,
   },
   size: {
-   width: 100,
+   width: 150,
    height: 0,
   },
  },
