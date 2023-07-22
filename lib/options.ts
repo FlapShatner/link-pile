@@ -31,6 +31,8 @@ export const options: ISourceOptions = {
    },
   },
  },
+ pauseOnBlur: true,
+ pauseOnOutsideViewport: true,
  interactivity: {
   detectsOn: 'canvas',
   events: {

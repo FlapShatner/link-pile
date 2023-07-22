@@ -22,8 +22,8 @@ const LinkElement: FC<LinkProps> = ({ link }) => {
      alt={link.text}
     />
     <div>
-     <p className='text-lg font-semibold sm:text-xl'>{link.text}</p>
-     <p className='text-xs sm:text-lg'>{link.note}</p>
+     <p className='text-white text-lg font-semibold sm:text-xl'>{link.text}</p>
+     <p className='text-white text-xs sm:text-lg'>{link.note}</p>
     </div>
    </div>
   </Link>
