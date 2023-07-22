@@ -13,7 +13,10 @@ const LinkElement: FC<LinkProps> = ({ link }) => {
  const { width, height } = useWindowSize()
  const isMobile = width < 640
  return (
-  <Link href={link.url}>
+  <a
+   href={link.url}
+   target='_blank'
+   rel='noopener noreferrer'>
    <div className='flex gap-4 p-2 w-full bg-white bg-opacity-10 rounded-xl shadow-md'>
     <Image
      src={link.icon}
@@ -26,7 +29,7 @@ const LinkElement: FC<LinkProps> = ({ link }) => {
      <p className='text-white text-xs sm:text-lg'>{link.note}</p>
     </div>
    </div>
-  </Link>
+  </a>
  )
 }
 

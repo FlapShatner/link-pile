@@ -9,11 +9,13 @@ const Socials: FC<SocialsProps> = () => {
   <>
    <div className='flex justify-center p-0 sm:p-6 gap-6'>
     {socialsData.map((social) => (
-     <Link
+     <a
       key={social.id}
-      href={social.url}>
+      href={social.url}
+      target='_blank'
+      rel='noopener noreferrer'>
       <div className='sm:opacity-60 hover:opacity-100 transition-opacity delay-75'>{social.icon}</div>
-     </Link>
+     </a>
     ))}
    </div>
   </>
