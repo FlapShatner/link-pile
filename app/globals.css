@@ -8,6 +8,29 @@
 }
 
 body {
-  color: hsl(var(--foreground-hsl));
-  background: hsl(var(--background-hsl));
+  color: white;
+  /* background: hsl(var(--background-hsl)); */
+}
+
+body {
+  background-color: #286275;
+  background: linear-gradient(90deg, #F35955, #286275, #00434C);
+  background-size: 300% 300%;
+  background-position: bottom;
+  animation: gradient 4s alternate infinite;
+  position: sticky;
+  top: 0;
+  left: 0;
+  height: 200%;
+  width: 100%;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0%;
+  }
+
+  100% {
+    background-position: 100%;
+  }
 }

@@ -22,7 +22,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   <html lang='en'>
    <body className={font.className}>
     {/* <Background /> */}
-    <Bg></Bg>
+    {/* <Bg></Bg> */}
     {children}
     <Analytics />
    </body>
