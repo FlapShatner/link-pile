@@ -4,6 +4,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { useWindowSize } from 'usehooks-ts'
 import { LinkType } from '@/lib/linksData'
+import va from '@vercel/analytics'
 
 interface LinkProps {
  link: LinkType
@@ -16,7 +17,8 @@ const LinkElement: FC<LinkProps> = ({ link }) => {
   <a
    href={link.url}
    target='_blank'
-   rel='noopener noreferrer'>
+   rel='noopener noreferrer'
+   onClick={() => va.track('Link', { link: link.text, url: link.url })}>
    <div className='flex gap-4 p-2 w-full bg-white bg-opacity-10 rounded-xl shadow-md'>
     <Image
      src={link.icon}

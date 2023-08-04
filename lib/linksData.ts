@@ -10,7 +10,7 @@ export const linksData = [
  },
  {
   id: 2,
-  text: 'jrobertsweb.dev',
+  text: 'v2.jrobertsweb.dev',
   url: 'https://www.jrobertsweb.dev/',
   icon: '/icons/link.svg',
   note: 'A developer portfolio of sorts',

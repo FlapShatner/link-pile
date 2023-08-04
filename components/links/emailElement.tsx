@@ -4,6 +4,7 @@ import { FC, useState } from 'react'
 import Image from 'next/image'
 import { useCopyToClipboard, useWindowSize } from 'usehooks-ts'
 import { emailData } from '@/lib/linksData'
+
 interface EmailElementProps {}
 
 const EmailElement: FC<EmailElementProps> = () => {
